@@ -27,7 +27,7 @@ start.addEventListener("click", function () {
     if (hours == -1) {
       days = days - 1;
       hours = 23;
-      document.querySelector(".hours").value = minutes;
+      document.querySelector(".hours").value = hours;
       document.querySelector(".days").value = days;
     }
     if (seconds == 0 && minutes == 0 && hours == 0 && days == 0) {
