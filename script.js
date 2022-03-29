@@ -33,6 +33,6 @@ start.addEventListener("click", function () {
     if (seconds == 0 && minutes == 0 && hours == 0 && days == 0) {
       clearInterval(inter);
     }
-  }, 100);
+  }, 1000);
   console.log(seconds, minutes, hours, days);
 });
